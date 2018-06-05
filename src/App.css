@@ -22,10 +22,6 @@ a:hover{
   color: #c6c6c6;
 }
 
-#hdr:hover{
-  color: #333333;
-}
-
 /* ICONS */
 #github, #linkedin{
   height: 30px;
