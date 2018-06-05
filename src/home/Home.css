@@ -1,0 +1,151 @@
+/* GLOBAL */
+
+a{
+    padding: 0 5px 0 5px;
+    vertical-align: middle !important;
+}
+
+#home{
+    padding: 20px 0 10px 0;
+}
+
+#collage{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* ROW 1 */
+
+#a{
+    font-size: 90px;
+    line-height: 50px;
+    animation: rd 3s;
+}
+
+#b{
+    font-size: 40px;
+    font-style: italic;
+    line-height: 60px;
+    animation: ylw 2s;
+}
+
+#c{
+    font-size: 120px;
+    line-height: 70px;
+    animation: orng 5s;
+}
+
+/* ROW 2 */
+
+#d{
+    font-size: 55px;
+    font-style: italic;
+    line-height: 30px;
+    animation: prpl 4s;
+}
+
+#e{
+    font-size: 95px;
+    line-height: 30px;
+    animation: rd 3s;
+}
+
+#f{
+    font-size: 70px;
+    line-height: 30px;
+    animation: ylw 2s;
+}
+
+/* ROW 3 */
+
+#g{
+    font-size: 150px;
+    line-height: 30px;
+    animation: grn 5s;
+}
+
+#h{
+    font-size: 90px;
+    line-height: 120px;
+    animation: prpl 2s;
+}
+
+/* ROW 4 */
+
+#j{
+    font-size: 100px;
+    font-style: italic;
+    line-height: 30px;
+    animation: blu 4s;
+}
+
+#i{
+    font-size: 50px;
+    line-height: 30px;
+    animation: ylw 5s;
+}
+
+#k{
+    font-size: 40px;
+    line-height: 30px;
+    animation: orng 2s;
+}
+
+/* ROW 5 */
+
+#l{
+    font-size: 110px;
+    font-style: italic;
+    line-height: 30px;
+    animation: blu 4s;
+}
+
+#m{
+    font-size: 60px;
+    line-height: 40px;
+    animation: rd 1s;
+}
+
+#n{
+    font-size: 70px;
+    line-height: 60px;
+    animation: grn 2s;
+}
+
+/* COLOUR ANIMATIONS */
+
+@keyframes blu{
+    0% {color: transparent;}
+    50% {color: #6ECFE9;}
+    100% {color: black;} 
+}
+
+@keyframes grn{
+    0% {color: transparent;}
+    50% {color: #6EE9B5;}
+    100% {color: black;} 
+}
+
+@keyframes rd{
+    0% {color: transparent;}
+    50% {color: #E96E75;}
+    100% {color: black;} 
+}
+
+@keyframes prpl{
+    0% {color: transparent;}
+    50% {color: #B96EE9;}
+    100% {color: black;} 
+}
+
+@keyframes orng{
+    0% {color: transparent;}
+    50% {color: #E9996E;}
+    100% {color: black;} 
+}
+
+@keyframes ylw{
+    0% {color: transparent;}
+    50% {color: #E7E96E;}
+    100% {color: black;} 
+}

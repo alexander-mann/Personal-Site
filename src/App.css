@@ -1,0 +1,132 @@
+/* GLOBAL */
+.App{
+  margin: auto;
+  max-width: 1000px;
+  min-width: 1000px;
+}
+
+#header, button, #siteBody, #footer{
+  font-family: 'Roboto', sans-serif !important;
+}
+
+a:hover{
+  text-decoration: none !important;
+}
+
+/* HEADER */
+#header{
+  padding-top: 40px;
+}
+
+#hdr{
+  color: #c6c6c6;
+}
+
+#hdr:hover{
+  color: #333333;
+}
+
+/* ICONS */
+#github, #linkedin{
+  height: 30px;
+  margin: 35px 0 0 10px;
+  float: right;
+}
+
+#linkedin:hover, #github:hover{
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+/* BUTTONS */
+
+#test{
+  background: url('./images/button-blank.png') no-repeat;
+  height: 65px;
+  width: 255px;
+  border: none;
+}
+
+#test:hover{
+  background: url('./images/button.png') no-repeat;
+  background-color: transparent !important;
+  color: white;
+}
+
+/* Global */
+
+button{
+  width: 250px;
+  height: 50px;
+  margin: 10px 0 10px 0 !important;
+  font-size: 25px !important;
+  border-radius: 10px round !important;
+  border-color: #333333 !important;
+}
+
+button:hover{
+  background-color: #333333 !important;
+}
+
+.btn:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Who Button */
+
+#who:hover{
+  color: #E9996E !important;
+}
+
+.is-active > button#who{
+  background-color: #333333;
+  color: #E9996E !important;
+}
+
+.is-active > button#who:after{
+  content:'am I?' ;
+}
+
+/* What Button */
+
+#what:hover{
+  color: #6ECFE9 !important;
+}
+
+.is-active > button#what{
+  background-color: #333333;
+  color: #6ECFE9 !important;
+}
+
+.is-active > button#what:after{
+  content:'do I know?';
+}
+
+/* Why Button */
+
+#why:hover{
+  color: #6EE9B5 !important;
+}
+
+.is-active > button#why{
+  background-color: #333333;
+  color: #6EE9B5 !important;
+}
+
+.is-active > button#why:after{
+  content:'?';
+}
+
+/* BODY */
+
+
+
+/* FOOTER */
+#footer{
+  margin-top: 20px;
+  text-align: right;
+  color: #c6c6c6;
+  font-size: 15px;
+  line-height: normal;
+}

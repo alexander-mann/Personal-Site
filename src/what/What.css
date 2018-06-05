@@ -1,0 +1,43 @@
+#titleWhat{
+    margin-top: 10px;
+    animation: fadein 1s;
+}
+
+.badge{
+    padding: 25px 0 25px 0 !important;
+    width: 180px !important;
+    font-size: 25px !important;
+    margin: 15px !important;
+    background: url('../images/what-bkgd.png');
+    vertical-align: center !important;
+    text-shadow: 2px 2px black;
+}
+
+#skills{
+    margin-left: 50px;
+}
+
+#oneSec{
+    animation: fadein 1s;
+    background-color: transparent !important;
+}
+
+#twoSec{
+    animation: fadein 2s;
+    background-color: transparent !important;
+}
+
+#threeSec{
+    animation: fadein 3s;
+    background-color: transparent !important;
+}
+
+#fourSec{
+    animation: fadein 4s;
+    background-color: transparent !important;
+}
+
+#fiveSec{
+    animation: fadein 5s;
+    background-color: transparent !important;
+}

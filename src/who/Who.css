@@ -1,0 +1,93 @@
+#title{
+    margin-top: 50px;
+    animation: fadein 2s;
+}
+
+#body{
+    font-size: 18px;
+    animation: fadein 3s;
+}
+
+#bk{
+    background-color: #3c3465;
+    color: white;
+}
+
+#title, #body{
+    text-shadow: 2px 2px black;
+    padding: 2px;
+}
+
+#margin{
+    margin-left: 40px;
+}
+
+#headshot{
+    animation: fadein 2s;
+    float: left;
+}
+
+@keyframes fadein{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+#agileBtn, #designBtn, #userBtn{
+    font-size: 20px !important;
+    background-color: #333333;
+    border: none !important;
+    animation: fadein 5s;
+    opacity: 1 !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+}
+
+#agileBtn:hover{
+    background-color: #6ECFE9 !important;
+}
+
+#designBtn:hover{
+    background-color: #E9996E !important;
+}
+
+#userBtn:hover{
+    background-color: #6EE9B5 !important;
+}
+
+#blk{
+    color: #333333 !important;
+}
+
+#iAm{
+    animation: fadein 12s;
+}
+
+#agile{
+    background-color: #6ECFE9 !important;
+}
+
+#design{
+    background-color: #E9996E !important;
+}
+
+#user{
+    background-color: #6EE9B5 !important;
+}
+
+#agile, #design, #user{
+    color: #333333 !important;
+    animation: fadein 14s;
+}
+
+#typing{
+    background-color: white;
+    padding: 2px;
+    animation: fadein 5s;
+    box-shadow: 2px 2px gray;
+}
+
+#whoBk{
+    background: url('../images/who-bkgd.png');
+    background-size: 970px 451px;
+    animation: fadein 1s;
+}

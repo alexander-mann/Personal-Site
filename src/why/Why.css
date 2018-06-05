@@ -1,0 +1,23 @@
+#myWhy{
+    font-size: 28px;
+    font-style: italic;
+    margin: 40px 0 40px 0;
+    text-align: center;
+    line-height: 60px;
+    animation: fadein 2s;
+    color: white;
+    height: 180px;
+    text-shadow: 2px 2px black;
+}
+
+#whyBk{
+    background: url('../images/why-bkgd.png');
+    background-size: 972px 262px;
+    animation: fadein 1s;
+    width: 972px;
+}
+
+#w{
+    background-color: #a93647;
+    color: white;
+}
