@@ -59,7 +59,7 @@
 }
 
 #iAm{
-    animation: fadein 12s;
+    animation: fadein 8s;
 }
 
 #agile{
@@ -76,7 +76,7 @@
 
 #agile, #design, #user{
     color: #333333 !important;
-    animation: fadein 14s;
+    animation: fadein 10s;
 }
 
 #typing{
