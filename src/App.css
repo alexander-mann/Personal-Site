@@ -1,17 +1,23 @@
 /* GLOBAL */
-.App{
-  margin: auto;
-  max-width: 1000px;
-  min-width: 1000px;
-}
-
-#header, button, #siteBody, #footer{
+#header, button, #siteBody, #footer, #mobileHdr, #mobileFooter{
   font-family: 'Roboto', sans-serif !important;
 }
 
 a:hover{
   text-decoration: none !important;
 }
+
+.App{
+  margin: 0 auto;
+}
+
+/*////  DESKTOP  ////*/
+
+#AppDesktop{
+  max-width: 1000px;
+  min-width: 1000px;
+}
+
 
 /* HEADER */
 #header{
@@ -29,7 +35,7 @@ a:hover{
   float: right;
 }
 
-#linkedin:hover, #github:hover{
+#linkedin:hover, #github:hover, #mobileIcon:hover{
   -webkit-filter: invert(100%);
   filter: invert(100%);
 }
@@ -113,11 +119,6 @@ button:hover{
 .is-active > button#why:after{
   content:'?';
 }
-
-/* BODY */
-
-
-
 /* FOOTER */
 #footer{
   margin-top: 20px;
@@ -125,4 +126,28 @@ button:hover{
   color: #c6c6c6;
   font-size: 15px;
   line-height: normal;
+}
+
+/*////  MOBILE  ////*/
+
+#AppMobile{
+  text-align: center;
+  margin: 0 !important;
+}
+
+/* HEADER */
+
+#mobileIcon{
+  height: 40px;
+}
+
+.justify-content-center{
+  margin-bottom: -15px;
+}
+
+/* FOOTER */
+
+#mobileFooter{
+  font-size: 12px;
+  color: #c6c6c6;
 }
