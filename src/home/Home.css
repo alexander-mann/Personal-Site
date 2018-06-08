@@ -128,7 +128,12 @@ a{
 }
 
 #mobileMarkB{
-    background: #E96E75;
+    background: linear-gradient(90deg, #6ECFE9, #E9996E);
+    color: white;
+}
+
+#mobileMarkC{
+    background: #E9996E;
     color: white;
 }
 

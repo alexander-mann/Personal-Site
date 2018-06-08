@@ -91,3 +91,35 @@
     background-size: 970px 451px;
     animation: fadein 1s;
 }
+
+/*//// MOBILE ////*/
+
+#whoBkMobile{
+    background: url('../images/who-bkgd.png') no-repeat;
+    background-size: 480px 275px;
+    animation: fadein 1s;
+}
+
+#whoMobile{
+    border-radius: 10px;
+    width: 250px;
+}
+
+#headshotMobile{
+    animation: fadein 2s;
+    width: 222px;
+}
+
+#mobileWhoText{
+    width: 50%;
+    margin-top: 55px;
+    margin-left: 40px;
+    text-align: left;
+    text-shadow: 2px 2px black;
+    font-size: 17px;
+}
+
+#mobileWhoImage{
+    width: 50%;
+    margin-left: -40px;
+}

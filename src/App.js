@@ -40,17 +40,13 @@ class App extends Component {
                   <a href='https://github.com/alexander-mann' target='_blank' rel="noopener noreferrer"><img id="mobileIcon" src={githubIcon} alt={"github"} /></a>
               {/* navigation */}
                 <nav className="navbar justify-content-center">
-                  <NavLink activeClassName='is-active' to='/who'> <button className="btn btn-outline-dark" id="who" type="button">who </button> </NavLink>
-                  </nav>
-                  <nav className="navbar justify-content-center">
-                  <NavLink activeClassName='is-active' to='/what'> <button className="btn btn-outline-dark" id="what" type="button">what </button> </NavLink>
-                  </nav>
-                  <nav className="navbar justify-content-center">
-                  <NavLink activeClassName='is-active' to='/why'> <button className="btn btn-outline-dark" id="why" type="button">why</button> </NavLink>
+                  <NavLink activeClassName='is-active' to='/who'> <button className="btn btn-outline-dark" id="whoMobile" type="button">who </button> </NavLink>
+                  <NavLink activeClassName='is-active' to='/what'> <button className="btn btn-outline-dark" id="whatMobile" type="button">what </button> </NavLink>
+                  <NavLink activeClassName='is-active' to='/why'> <button className="btn btn-outline-dark" id="whyMobile" type="button">why</button> </NavLink>
                 </nav>
                 <hr />
               {/* content */}
-              <div className="row" id="siteBody">
+              <div id="siteBody">
                 <Switch>
                   <Route exact path='/' render={() => (
                     <Home />
@@ -72,10 +68,10 @@ class App extends Component {
             </div>
           </div>
           {/* footer */}
-          <hr />
           <footer>
             <div className="container">
               <div className="col-md-12">
+              <hr />
                 <a id="mobileFooter">created using <strong>React</strong></a>
               </div>
             </div>

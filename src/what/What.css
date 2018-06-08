@@ -17,7 +17,7 @@
     margin-left: 50px;
 }
 
-#oneSec{
+#oneSec, #oneSecMobile{
     animation: fadein 1s;
     background-color: transparent !important;
 }
@@ -40,4 +40,8 @@
 #fiveSec{
     animation: fadein 5s;
     background-color: transparent !important;
+}
+
+#oneSecMobile{
+    margin: 0 10px 10px 10px !important;
 }
