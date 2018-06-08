@@ -17,7 +17,7 @@
     margin-left: 50px;
 }
 
-#oneSec, #oneSecMobile{
+#oneSec{
     animation: fadein 1s;
     background-color: transparent !important;
 }
@@ -42,6 +42,23 @@
     background-color: transparent !important;
 }
 
-#oneSecMobile{
-    margin: 0 10px 10px 10px !important;
+#skillsMobile{
+    background: url('../images/what-mobile.png') no-repeat;
+    background-position: top center;
+    animation: fadein 2s;
+}
+
+#skill{
+    font-size: 23px !important;
+}
+
+#skillSet{
+    background-color: #15192e;
+    color: white;
+    text-shadow: 2px 2px black;
+    animation: fadein 3s;
+}
+
+#yellow{
+    color: #c7d954;
 }

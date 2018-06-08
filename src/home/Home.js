@@ -23,7 +23,7 @@ class Home extends Component {
         if (isMobile) {
             return (
                 <div className="col-md-12">
-                <a id="mobileHome"><mark id="mobileMarkA">Developer</mark><mark id="mobileMarkB">&</mark><mark id="mobileMarkC">Designer</mark></a>
+                <a id="mobileHome"><strong><a id="mobileMarkA">developer</a><a id="mobileMarkB">+</a><a id="mobileMarkC">designer</a></strong></a>
                 </div>
             );
         } else {

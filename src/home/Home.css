@@ -119,22 +119,20 @@ a{
 /* TEXT */
 
 #mobileHome{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #mobileMarkA{
-    background: #6ECFE9;
-    color: white;
+    color: #6ECFE9;
 }
 
 #mobileMarkB{
-    background: linear-gradient(90deg, #6ECFE9, #E9996E);
+    background: linear-gradient(90deg, #6ECFE9, #6EE9B5);
     color: white;
 }
 
 #mobileMarkC{
-    background: #E9996E;
-    color: white;
+    color: #6EE9B5;
 }
 
 /* COLOUR ANIMATIONS */

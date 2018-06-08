@@ -128,8 +128,7 @@ button:hover{
 /* HEADER */
 
 #mobileIcon{
-  height: 40px;
-  margin: -10px 0 -10px 0;
+  height: 35px;
 }
 
 .justify-content-center{
@@ -156,4 +155,17 @@ button:hover{
 
 #whatMobile{
   margin-left: -10px;
+}
+
+#hdrMobile{
+  text-align: left;
+  width: 50%;
+  margin-bottom: -35px;
+  margin-left: 35px;
+}
+
+#iconsMobile{
+  margin-top: 30px;
+  margin-right: -40px;
+  width: 50%;
 }

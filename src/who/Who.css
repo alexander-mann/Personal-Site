@@ -97,7 +97,7 @@
 #whoBkMobile{
     background: url('../images/who-bkgd.png') no-repeat;
     background-size: 480px 275px;
-    animation: fadein 1s;
+    animation: fadein 2s;
 }
 
 #whoMobile{
@@ -106,7 +106,7 @@
 }
 
 #headshotMobile{
-    animation: fadein 2s;
+    animation: fadein 4s;
     width: 222px;
 }
 
@@ -117,6 +117,7 @@
     text-align: left;
     text-shadow: 2px 2px black;
     font-size: 17px;
+    animation: fadein 3s;
 }
 
 #mobileWhoImage{
