@@ -121,8 +121,8 @@ button:hover{
 #AppMobile{
   text-align: center;
   margin: 0 !important;
-  max-width: 999px;
-  min-width: 500px;
+  max-width: 540px;
+  min-width: 540px;
 }
 
 /* HEADER */
