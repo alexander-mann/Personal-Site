@@ -27,7 +27,7 @@ class Who extends Component {
                 <div className="col-md-12" id="whoBkMobile">
                     <div className="col-md-6" id="mobileWhoText">
                         <p><mark id="bk">
-                            I am a human-centric software developer and designer who is constantly striving to improve himself by refining the skills I possess and learning new ones.
+                            I am a human-centric software developer and designer who is constantly striving to improve himself by refining the skills I possess, and learning new ones.
                         </mark>
                         </p>
                     </div>
@@ -42,8 +42,10 @@ class Who extends Component {
                         <div className="col-md-5" id="margin">
                             <h2 id="title"><mark id="bk"> <strong>developer &amp; designer</strong> </mark></h2>
                             <p id="body"><mark id="bk">
-                                I am a human-centric software developer and&nbsp;&nbsp; &nbsp;designer who is constantly striving to improve&nbsp; &nbsp;himself.
-                                &nbsp;Practice makes perfect.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;I am a human-centric software developer and&nbsp; 
+                            &nbsp;designer who is constantly striving to improve&nbsp; 
+                            &nbsp;himself by refining the skills I possess, and&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+                            &nbsp;learning new ones.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
                             </mark><br /><br />
                             </p>
                             <div id="typing">

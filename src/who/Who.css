@@ -114,8 +114,9 @@
 #mobileWhoText{
     text-align: left;
     text-shadow: 2px 2px black;
-    font-size: 17px;
+    font-size: 16px;
     animation: fadein 3s;
-    width: 70%;
+    width: 75%;
     padding-top: 20px;
+    padding-left: 0 !important;
 }
