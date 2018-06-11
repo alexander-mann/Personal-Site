@@ -27,7 +27,7 @@ class Who extends Component {
                 <div className="col-md-12" id="whoBkMobile">
                     <div className="col-md-6" id="mobileWhoText">
                         <p><mark id="bk">
-                            I am a human-centric software developer and designer who is constantly striving to improve himself by refining the skills I possess, and learning new ones.
+                            I am a human-centric software developer and designer who is constantly striving to improve himself by refining the skills I possess, and<br/> learning new ones.
                         </mark>
                         </p>
                     </div>
