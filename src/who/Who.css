@@ -95,9 +95,10 @@
 /*//// MOBILE ////*/
 
 #whoBkMobile{
-    background: url('../images/who-bkgd.png') no-repeat;
-    background-size: 480px 275px;
+    background: url('../images/who-mobile2.png') no-repeat;
+    background-size: 340px 400px;
     animation: fadein 2s;
+    height: 400px;
 }
 
 #whoMobile{
@@ -111,16 +112,10 @@
 }
 
 #mobileWhoText{
-    width: 50%;
-    margin-top: 55px;
-    margin-left: 40px;
     text-align: left;
     text-shadow: 2px 2px black;
     font-size: 17px;
     animation: fadein 3s;
-}
-
-#mobileWhoImage{
-    width: 50%;
-    margin-left: -40px;
+    width: 70%;
+    padding-top: 20px;
 }

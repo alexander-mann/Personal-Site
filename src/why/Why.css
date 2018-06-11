@@ -25,13 +25,13 @@
     text-align: center;
     animation: fadein 3s;
     text-shadow: 2px 2px black;
-    font-size: 26px;
+    font-size: 22px;
     line-height: 40px;
 }
 
 #whyMobileBk{
-    background: url('../images/why-bkgd.png') no-repeat;
+    background: url('../images/why-mobile.png') no-repeat;
     background-position: top center;
-    height: 250px;
+    height: 280px;
     animation: fadein 2s;
 }

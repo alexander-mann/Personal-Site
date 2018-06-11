@@ -45,11 +45,12 @@
 #skillsMobile{
     background: url('../images/what-mobile.png') no-repeat;
     background-position: top center;
+    width: 340px;
     animation: fadein 2s;
 }
 
 #skill{
-    font-size: 23px !important;
+    font-size: 18px !important;
 }
 
 #skillSet{

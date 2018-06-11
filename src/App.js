@@ -40,17 +40,16 @@ class App extends Component {
                     <NavLink to='/' id="hdr"><h1 id="mobileHdr">alexander<strong>mann</strong></h1></NavLink>
                 </div>
                 <div className="col-md-6" id="iconsMobile">
-                  <a href='https://www.linkedin.com/in/alexandercmann/' target='_blank' rel="noopener noreferrer"><img id="mobileIcon" src={linkedinIcon} alt={"linkedin"} /></a>
-                  <a href='https://github.com/alexander-mann' target='_blank' rel="noopener noreferrer"><img id="mobileIcon" src={githubIcon} alt={"github"} /></a>
+                  <a href='https://www.linkedin.com/in/alexandercmann/' target='_blank' rel="noopener noreferrer"><img id="mobileIconL" src={linkedinIcon} alt={"linkedin"} /></a>
+                  <a href='https://github.com/alexander-mann' target='_blank' rel="noopener noreferrer"><img id="mobileIconG" src={githubIcon} alt={"github"} /></a>
                 </div>
               </div>
               {/* navigation */}
-              <nav className="navbar justify-content-center">
+              <nav className="navbar">
                 <NavLink activeClassName='is-active' to='/who'> <button className="btn btn-outline-dark" id="whoMobile" type="button">who </button> </NavLink>
                 <NavLink activeClassName='is-active' to='/what'> <button className="btn btn-outline-dark" id="whatMobile" type="button">what </button> </NavLink>
                 <NavLink activeClassName='is-active' to='/why'> <button className="btn btn-outline-dark" id="whyMobile" type="button">why</button> </NavLink>
               </nav>
-              <hr />
               {/* content */}
               <div id="siteBody">
                 <Switch>

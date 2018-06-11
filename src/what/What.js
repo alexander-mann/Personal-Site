@@ -24,12 +24,12 @@ class What extends Component {
             return (
                 <div className="col-md-12">
                     <div className="col-md-12" id="skillsMobile">
-                    <br/><br/>
-                        <p id="skill"><mark id="skillSet">JavaScript&nbsp;&nbsp;&nbsp; <a id="yellow">/</a>&nbsp;&nbsp;&nbsp; C&nbsp;&nbsp;&nbsp; <a id="yellow">/</a>&nbsp;&nbsp;&nbsp; C++&nbsp;&nbsp;&nbsp; <a id="yellow">/</a>&nbsp;&nbsp;&nbsp; Java</mark></p>
-                        <p id="skill"><mark id="skillSet">jQuery&nbsp;&nbsp;&nbsp; <a id="yellow">/</a>&nbsp;&nbsp;&nbsp; AJAX&nbsp;&nbsp;&nbsp; <a id="yellow">/</a>&nbsp;&nbsp;&nbsp; HTML&nbsp;&nbsp;&nbsp; <a id="yellow">/</a>&nbsp;&nbsp;&nbsp; CSS</mark></p>
-                        <p id="skill"><mark id="skillSet">NodeJS <a id="yellow">/</a> Angular <a id="yellow">/</a> TypeScript <a id="yellow">/</a> React</mark></p>
-                        <p id="skill"><mark id="skillSet">Heroku&nbsp;&nbsp; <a id="yellow">/</a>&nbsp;&nbsp; Git&nbsp;&nbsp; <a id="yellow">/</a>&nbsp;&nbsp; MongoDB&nbsp;&nbsp; <a id="yellow">/</a>&nbsp;&nbsp; SQL</mark></p>
-                        <p id="skill"><mark id="skillSet">Illustrator <a id="yellow">/</a> Photoshop <a id="yellow">/</a> Axure <a id="yellow">/</a> Figma</mark></p>
+                    <br/>
+                        <p id="skill"><mark id="skillSet"> JavaScript <a id="yellow">/</a> C <a id="yellow">/</a> C++ <a id="yellow">/</a> Java </mark></p>
+                        <p id="skill"><mark id="skillSet"> jQuery <a id="yellow">/</a> AJAX <a id="yellow">/</a> HTML <a id="yellow">/</a> CSS</mark></p>
+                        <p id="skill"><mark id="skillSet"> NodeJS<a id="yellow">/</a>Angular<a id="yellow">/</a>TypeScript<a id="yellow">/</a>React</mark></p>
+                        <p id="skill"><mark id="skillSet"> Heroku <a id="yellow">/</a> Git <a id="yellow">/</a> MongoDB <a id="yellow">/</a> SQL</mark></p>
+                        <p id="skill"><mark id="skillSet"> Adobe Suite <a id="yellow">/</a> Axure <a id="yellow">/</a> Figma</mark></p>
                         <br/>
                     </div>
                 </div>

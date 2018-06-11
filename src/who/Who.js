@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './Who.css';
 // import image
 import headshot from '../images/headshot.png';
-import headshotMobile from '../images/headshotMobile.png';
 
 class Who extends Component {
     constructor() {
@@ -26,22 +25,13 @@ class Who extends Component {
         if (isMobile) {
             return (
                 <div className="col-md-12" id="whoBkMobile">
-                <div className="row">
-                <div className="col-md-6" id="mobileWhoText">
-                    <p><mark id="bk">
-                    &nbsp;I am a human-centric&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;software developer and&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;designer who is constantly&nbsp;
-                    &nbsp;striving to improve himself&nbsp;
-                    &nbsp;Practice makes perfect&nbsp;&nbsp;
+                    <div className="col-md-6" id="mobileWhoText">
+                        <p><mark id="bk">
+                            I am a human-centric software developer and designer who is constantly striving to improve himself by refining the skills I possess and learning new ones.
                         </mark>
-                    </p>
+                        </p>
                     </div>
-                    <div className="col-md-6" id="mobileWhoImage">
-                    <img id="headshotMobile" src={headshotMobile} alt={"headshotMobile"} />
-                    </div>
-                    </div>
-                </div >
+                </div>
             );
         } else {
             return (

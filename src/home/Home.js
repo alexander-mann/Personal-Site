@@ -22,8 +22,16 @@ class Home extends Component {
         const isMobile = width < 1000;
         if (isMobile) {
             return (
-                <div className="col-md-12">
-                <a id="mobileHome"><strong><a id="mobileMarkA">developer</a><a id="mobileMarkB">+</a><a id="mobileMarkC">designer</a></strong></a>
+                <div className="row">
+                    <div className="col-md-12">
+                        <a id="mobileHome"><strong><a id="mobileMarkA">developer</a></strong></a>
+                    </div>
+                    <div className="col-md-12">
+                    <a id="mobileHome"><strong><a id="mobileMarkB">&nbsp;&nbsp;+&nbsp;&nbsp;</a></strong></a>
+                    </div>
+                    <div className="col-md-12">
+                    <a id="mobileHome"><strong><a id="mobileMarkC">designer</a></strong></a>
+                    </div>
                 </div>
             );
         } else {
