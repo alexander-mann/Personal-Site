@@ -5,6 +5,7 @@ import Home from './home/Home';
 import Who from './who/Who';
 import What from './what/What';
 import Why from './why/Why';
+import NotFound from './not-found/NotFound';
 // import images
 import githubIcon from './images/github-icon.png';
 import linkedinIcon from './images/linkedin-icon.png';
@@ -66,7 +67,7 @@ class App extends Component {
                     <Why />
                   )} />
                   <Route render={() => (
-                    <h1>Not Found</h1>
+                    <NotFound />
                   )} />
                 </Switch>
               </div>
@@ -123,7 +124,7 @@ class App extends Component {
                     <Why />
                   )} />
                   <Route render={() => (
-                    <h1>Not Found</h1>
+                    <NotFound />
                   )} />
                 </Switch>
               </div>
