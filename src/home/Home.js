@@ -27,7 +27,7 @@ class Home extends Component {
                         <a id="mobileHome"><strong><a id="mobileMarkA">developer</a></strong></a>
                     </div>
                     <div className="col-md-12">
-                    <a id="mobileHome"><strong><a id="mobileMarkB">&nbsp;&nbsp;+&nbsp;&nbsp;</a></strong></a>
+                    <a id="mobileHome"><strong><a id="mobileMarkB">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></strong></a>
                     </div>
                     <div className="col-md-12">
                     <a id="mobileHome"><strong><a id="mobileMarkC">designer</a></strong></a>
