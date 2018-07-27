@@ -29,13 +29,13 @@ a:hover{
 }
 
 /* ICONS */
-#github, #linkedin{
+#github, #linkedin, #email{
   height: 30px;
   margin: 35px 0 0 10px;
   float: right;
 }
 
-#linkedin:hover, #github:hover, #mobileIcon:hover{
+#linkedin:hover, #github:hover, #email:hover, #mobileIcon:hover{
   -webkit-filter: invert(100%);
   filter: invert(100%);
 }
@@ -127,12 +127,8 @@ button:hover{
 
 /* HEADER */
 
-#mobileIconL, #mobileIconG{
+#mobileIconL, #mobileIconG, #mobileIconE{
   height: 25px;
-}
-
-#mobileIconL{
-  margin-left: 25px;
 }
 
 /* FOOTER */
@@ -163,8 +159,9 @@ button:hover{
 }
 
 #mobileHdr{
-  font-size: 30px !important;
+  font-size: 26px !important;
   margin-left: 30px;
+  line-height: 40px;
 }
 
 #iconsMobile{

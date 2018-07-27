@@ -9,6 +9,7 @@ import NotFound from './not-found/NotFound';
 // import images
 import githubIcon from './images/github-icon.png';
 import linkedinIcon from './images/linkedin-icon.png';
+import emailIcon from './images/email-icon.png';
 
 class App extends Component {
   constructor() {
@@ -43,6 +44,7 @@ class App extends Component {
                 <div className="col-md-6" id="iconsMobile">
                   <a href='https://www.linkedin.com/in/alexandercmann/' target='_blank' rel="noopener noreferrer"><img id="mobileIconL" src={linkedinIcon} alt={"linkedin"} /></a>
                   <a href='https://github.com/alexander-mann' target='_blank' rel="noopener noreferrer"><img id="mobileIconG" src={githubIcon} alt={"github"} /></a>
+                  <a href='mailto:alexandercmann@gmai.com'><img id="mobileIconE" src={emailIcon} alt={"email"} /></a>
                 </div>
               </div>
               {/* navigation */}
@@ -96,6 +98,7 @@ class App extends Component {
                   <NavLink to='/' id="hdr"><h1>alexander<strong>mann</strong></h1></NavLink>
                 </div>
                 <div className="col-md-4">
+                  <a href='mailto:alexandercmann@gmai.com'><img id="email" src={emailIcon} alt={"email"} /></a>
                   <a href='https://www.linkedin.com/in/alexandercmann/' target='_blank' rel="noopener noreferrer"><img id="linkedin" src={linkedinIcon} alt={"linkedin"} /></a>
                   <a href='https://github.com/alexander-mann' target='_blank' rel="noopener noreferrer"><img id="github" src={githubIcon} alt={"github"} /></a>
                 </div>
